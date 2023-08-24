@@ -20,11 +20,8 @@ public abstract class Pastry
 public class Beignet : Pastry
 {
     public override string Description => "A French pastry made from deep-fried dough, typically dusted with powdered sugar.";
-
     public override int KiloCalories => 250;
-
     public override float Price => 2.5f;
-
     public override string Name => "Beignet";
 
     public Beignet()
@@ -40,9 +37,7 @@ public class Beignet : Pastry
 public class Cruller : Pastry
 {
     public override string Description => "A twisted, sweet pastry made from yeast dough that is deep-fried and often glazed.";
-
     public override int KiloCalories => 220;
-
     public override float Price => 1.75f;
     public override string Name => "Cruller";
 
